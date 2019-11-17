@@ -3,3 +3,5 @@ extends:
   - plugin:prettier/recommended
 env:
   browser: true
+rules:
+  react/style-prop-object: 0 # Until we implement style objects, allow them to be passed as strings
